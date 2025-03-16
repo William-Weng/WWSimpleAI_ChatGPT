@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D3557F22D86AB4D003F7CC8 /* WWSimpleAI_ChatGPT in Frameworks */ = {isa = PBXBuildFile; productRef = 3D3557F12D86AB4D003F7CC8 /* WWSimpleAI_ChatGPT */; };
+		3D3557F52D86ACF7003F7CC8 /* WWSimpleAI_ChatGPT in Frameworks */ = {isa = PBXBuildFile; productRef = 3D3557F42D86ACF7003F7CC8 /* WWSimpleAI_ChatGPT */; };
 		3DBCD87426F198EF00522E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCD87326F198EF00522E3B /* AppDelegate.swift */; };
 		3DBCD87826F198EF00522E3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBCD87726F198EF00522E3B /* ViewController.swift */; };
 		3DBCD87B26F198EF00522E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DBCD87926F198EF00522E3B /* Main.storyboard */; };
@@ -42,7 +42,7 @@
 			files = (
 				814816672CBE6D2C00140936 /* WWPrint in Frameworks */,
 				814816642CBE6D1600140936 /* WWHUD in Frameworks */,
-				3D3557F22D86AB4D003F7CC8 /* WWSimpleAI_ChatGPT in Frameworks */,
+				3D3557F52D86ACF7003F7CC8 /* WWSimpleAI_ChatGPT in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +149,7 @@
 			packageProductDependencies = (
 				814816632CBE6D1600140936 /* WWHUD */,
 				814816662CBE6D2C00140936 /* WWPrint */,
-				3D3557F12D86AB4D003F7CC8 /* WWSimpleAI_ChatGPT */,
+				3D3557F42D86ACF7003F7CC8 /* WWSimpleAI_ChatGPT */,
 			);
 			productName = Example;
 			productReference = 3DBCD87026F198EF00522E3B /* Example.app */;
@@ -182,7 +182,7 @@
 			packageReferences = (
 				814816622CBE6D1600140936 /* XCRemoteSwiftPackageReference "WWHUD" */,
 				814816652CBE6D2C00140936 /* XCRemoteSwiftPackageReference "WWPrint" */,
-				3D93C90D2D86A98B00FDAF1E /* XCLocalSwiftPackageReference "../../WWSimpleAI_ChatGPT" */,
+				3D3557F32D86ACF7003F7CC8 /* XCRemoteSwiftPackageReference "WWSimpleAI_ChatGPT" */,
 			);
 			productRefGroup = 3DBCD87126F198EF00522E3B /* Products */;
 			projectDirPath = "";
@@ -429,14 +429,15 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		3D93C90D2D86A98B00FDAF1E /* XCLocalSwiftPackageReference "../../WWSimpleAI_ChatGPT" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = ../../WWSimpleAI_ChatGPT;
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCRemoteSwiftPackageReference section */
+		3D3557F32D86ACF7003F7CC8 /* XCRemoteSwiftPackageReference "WWSimpleAI_ChatGPT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/William-Weng/WWSimpleAI_ChatGPT";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		814816622CBE6D1600140936 /* XCRemoteSwiftPackageReference "WWHUD" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/William-Weng/WWHUD";
@@ -456,9 +457,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		3D3557F12D86AB4D003F7CC8 /* WWSimpleAI_ChatGPT */ = {
+		3D3557F42D86ACF7003F7CC8 /* WWSimpleAI_ChatGPT */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 3D93C90D2D86A98B00FDAF1E /* XCLocalSwiftPackageReference "../../WWSimpleAI_ChatGPT" */;
+			package = 3D3557F32D86ACF7003F7CC8 /* XCRemoteSwiftPackageReference "WWSimpleAI_ChatGPT" */;
 			productName = WWSimpleAI_ChatGPT;
 		};
 		814816632CBE6D1600140936 /* WWHUD */ = {

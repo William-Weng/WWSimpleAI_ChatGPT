@@ -1,5 +1,5 @@
 {
-  "originHash" : "b59d9bcb6ae0e8085008067e19f03e8ab3515f24dba120c0d9b0804bc2be6b65",
+  "originHash" : "cf73490d1ca9c9c52c9cbe0abcb8ac6bb4ae6f8d3b2e3d03b10f4312723eec83",
   "pins" : [
     {
       "identity" : "wwhud",
@@ -26,6 +26,15 @@
       "state" : {
         "revision" : "8f5928f5d36624d77f8fc563fd8e31a59cfac6b6",
         "version" : "1.3.1"
+      }
+    },
+    {
+      "identity" : "wwsimpleai_chatgpt",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/William-Weng/WWSimpleAI_ChatGPT",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4f78418e4032cb4402e73549286f78b5248e32bd"
       }
     },
     {

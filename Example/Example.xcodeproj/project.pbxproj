@@ -434,8 +434,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/William-Weng/WWSimpleAI_ChatGPT";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 		814816622CBE6D1600140936 /* XCRemoteSwiftPackageReference "WWHUD" */ = {
